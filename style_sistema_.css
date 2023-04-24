@@ -1,0 +1,189 @@
+body{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(56, 62, 61);
+    color: rgb(246, 246, 246);
+  
+}
+
+.button{
+background-color:#93DB70;
+text-align: center;
+border-radius: 5px;
+padding: 5px ;
+border-color: blanchedalmond;
+border-style:groove;
+cursor: pointer;
+font-family:'Arial';
+font-weight: bold;
+color: blanchedalmond;
+
+}
+
+a{
+    color:blanchedalmond;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+
+}
+
+nav{
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center;
+    font-family:'Arial';
+    background: #7084db;
+    /*unidade responsiva*/
+    height: 3vh;
+}
+
+.menu{
+  
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+letter-spacing: 3px;
+margin-left: 32px;
+}
+.button{
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+}
+
+
+.button:hover{
+    background-image: linear-gradient(to right,rgb(254, 248, 67),rgb(253, 231, 86));  
+}
+
+.button2{
+    background-color: rgb(243, 48, 48);
+    text-align: center;
+    border-radius: 5px;
+    padding:5px;
+    border-color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Arial';
+   
+    color: aliceblue;
+}
+
+.button2:hover{
+    background-image: linear-gradient(to right,rgb(226, 49, 49),rgb(219, 53, 53));  
+}
+
+.button3{
+    background-color:#49f32f;
+    text-align: center;
+    margin-left: 5px;
+    border-radius:5px;
+    border-color:none;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-family:'Arial';
+    color: aliceblue;
+    font-weight: bold;
+    
+    }
+
+    .button3:hover{
+        background-color:#31ff11;
+    }
+   
+
+    .imgInserir{
+        border-radius: 50vh;
+        background-color:white;
+    }
+
+#pesquisar{
+ border: none;
+ border-radius: 5px;
+}
+
+.pesquisa{
+    border:none;
+    border-radius: 15px;
+    font-weight: bold;
+   
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-pesquisa{
+    display: flex;
+    justify-content:right;
+    border-radius: 2%;
+    gap :.3%;
+    padding-right: 10px;
+   
+}
+
+.form-pesquisa .pesquisar{
+    width: 320px;
+    background-color: rgb(240, 231, 231);
+    
+}
+
+
+.box-sistema{
+    text-align: center;
+    background-color: rgb(65, 141, 141);
+}
+
+
+section .tabela {
+   margin: 3px;
+   padding: 5px;
+   background-color:rgb(78, 83, 83);
+   width: 100%;
+   text-align: center;
+   border-radius: 0px 10px 0 0;
+}
+
+.tab-cab{
+    background-color: #7f7f8f;
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(155, 238, 191),rgb(43, 120, 13));
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: baseline;
+   margin-left: 2px;
+   margin-right: 2px;
+   border: none;
+
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(123, 226, 49),rgb(53, 219, 114));
+}
+#submit2{
+    background-image: linear-gradient(to right,rgb(232, 52, 25),rgb(211, 25, 25));
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: baseline;
+    margin-left: 2px;
+    border: none;
+
+}
+
+#submit2:hover{
+    background-image: linear-gradient(to right,rgb(230, 134, 125),rgb(200, 34, 34));
+}
+

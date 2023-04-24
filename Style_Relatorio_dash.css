@@ -1,0 +1,160 @@
+body{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(56, 62, 61);
+    color: rgb(246, 246, 246);
+  
+}
+
+
+
+a{
+    color:blanchedalmond;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+
+}
+
+nav{
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: space-around;
+    align-items:center;
+    font-family:'Arial';
+    background: #7084db;
+    /*unidade responsiva*/
+    height: 3vh;
+}
+
+.menu{
+  
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+letter-spacing: 3px;
+margin-left: 32px;
+}
+
+.box{
+    border-style: inset;
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.box2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    border-style: inset;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.box3{
+    border-style: inset;
+    position:absolute;
+    top:50%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.relatorio svg{
+    width: 150px;
+    height: 150px;
+    text-align: justify;
+}
+
+circle{
+    width: 150px;
+    height: 150px;
+    fill:none;
+    stroke: black;
+    stroke-width: 10;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440; 
+    text-align: center;  
+}
+
+/*calculo do relatorio 100%=440 70%=X */
+
+circle:nth-child(1){
+    stroke-dashoffset:0;
+    stroke: #7f7f8f;
+}
+
+circle:nth-child(2){
+   transition: stroke-dashoffset 1.08s;
+    stroke: rgb(109, 216, 94);
+   
+}
+
+#circleProgress2:nth-child(2){
+    transition: stroke-dashoffset 1.08s;
+     stroke: rgb(239, 142, 52);   
+     
+ }
+
+.circleProgress3:nth-child(2){
+    transition: stroke-dashoffset 1.08s;
+     stroke:rgb(239, 52, 52);   
+ }
+
+
+.number{
+    align-items: center;
+    color:rgb(109, 216, 94);
+    
+}
+
+.number2{
+    align-items: center;
+    color:rgb(239, 142, 52);  
+}
+
+.number3{
+    align-items: center;
+    color:rgb(239, 52, 52);  
+}
+
+.R_escrito{
+    text-decoration: overline;
+    text-align: center;
+    color: blanchedalmond;
+    font-weight: bold;  
+}
+
+.dash{
+    background-color: rgb(104, 187, 191);
+    text-align: center;
+    border-radius: 5px;
+    padding:5px;
+    border-color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:'Arial';
+   
+    color: aliceblue;
+}
+
+
+    
+
+ 
